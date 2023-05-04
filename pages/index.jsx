@@ -166,14 +166,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buy Albert a Coffee!</title>
+        <title>Buy Charlie a Coffee!</title>
         <meta name="description" content="Tipping site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Buy Albert a Coffee!
+          Buy Charlie a Coffee!
         </h1>
         
         {currentAccount ? (
@@ -195,7 +195,7 @@ export default function Home() {
               <br/>
               <div class="formgroup">
                 <label>
-                  Send Albert a message
+                  Send Charlie a message
                 </label>
                 <br/>
 
@@ -240,7 +240,6 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by @thatguyintech for Alchemy's Road to Web3 lesson two!
         </a>
       </footer>
     </div>
